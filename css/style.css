@@ -1,9 +1,4 @@
 /*reglas generales*/
-:root {
-  --bs-blue: #037BC0;
-  --bs-green: #8cbc00;
-}
-
 html {
   font-size: 62.5%;
 }
@@ -21,16 +16,19 @@ h1, h2, h3 {
 h1 { font-size: 5rem; }
 h2, h3 { font-size: 4rem; }
 
-/* Hero responsive */
-
-
-@media (max-width: 768px) {
-  .hero-section {
-    height: 55rem;
-  }
+.navbar-collapse {
+    transition: height 0.3s ease;
 }
 
+.categoria-img {
+    transition: transform 0.3s ease;
+}
 
+.categoria-img:hover {
+    transform: scale(1.2);
+}
+
+/* Hero responsive */
 .hero-section {
     height: 25rem;
     background-image: url('../img/principal.jpg');
@@ -39,8 +37,16 @@ h2, h3 { font-size: 4rem; }
     color: white;
 }
 /*Media Query*/
-
+@media (max-width: 768px) {
+  .hero-section {
+    height: 55rem;
+  }
+}
 /** Reescribir colores */
+:root {
+  --bs-blue: #037BC0;
+  --bs-green: #8cbc00;
+}
 
 /** Productos */
 .producto-img {
