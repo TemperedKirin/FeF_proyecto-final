@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce - Inicio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Bootstrap 5.3.6 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="container py-4">
+        <h1 class="text-center fw-bold">
+            Tienda <span id="color-azul">Muebles</span>
+        </h1>
+    </header>
+    <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Tienda <span class="text-primary">Muebles</span></a>
+
+        <!-- Botón hamburguesa -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menú colapsable -->
+        <div class="collapse navbar-collapse justify-content-end" id="menu">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link text-dark mx-2" href="#">Inicio</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link text-dark mx-2" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link text-dark mx-2" href="#">Tienda</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link text-dark mx-2" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link text-dark mx-2" href="#">Galería</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link text-dark mx-2" href="#">Contacto</a>
+            </li>
+        </ul>
+        </div>
+    </div> <!-- cierre de .container -->
+    </nav>
+
+
+    <section class="hero-section py-5 text-center">
+        <div class="container">
+            <h2 class="display-4 fw-bold" style="font-family: 'Playfair Display', serif;">Tu hogar, tu estilo</h2>
+            <p class="lead" style="font-family: 'Raleway', sans-serif;">Muebles elegantes para tu hogar</p>
+            <a href="#" class="btn btn-primary mt-3">Explorar colección</a>
+        </div>
+
+    </section>
+
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-5" style="font-family: 'Playfair Display', serif;">Nuestros productos</h2>
+        
+
+            <!--Producto 1-->
+            <div class="row align-items-center mb-5">
+                <div class="col-md-6">
+                    <!--Imagen producto 1-->
+                    <div class="col-md-6">
+                        <img src="img/producto1.jpg" alt="Producto 1" class="img-fluid producto-img rounded">
+                    </div>
+                </div>
+                <div class="col-md-6 bg-primary text-white p-4 rounded">
+                    <!---Titulo, descripción, precio, botón-->
+                    <div class="col-md-6 bg-primary text-white p-4 rounded">
+                        <h3 class="h5-mb-2" style="font-family: 'Playfair Display', serif;">Nombre del producto</h3>
+                        <p class="mb-2" style="font-family: 'Raleway', sans-serif;">Descripción del producto</p>
+                        <p class="fe-bold mb-3">$1,200 MXN</p>
+                        <a href="#" class="btn btn-light btn-sm">Agregar al carrito</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <!--Producto 2 y 3-->
+        <!-- Productos 2 y 3 -->
+            <div class="row mb-5">
+                
+                <!-- Producto 2 -->
+                <div class="col-md-6 mb-4">
+                    <img src="img/producto2.jpg" alt="Producto 2" class="img-fluid rounded">
+                    <div class="bg-primary text-white p-3 mt-3 rounded">
+                        <h3 class="h5 mb-2" style="font-family: 'Playfair Display', serif;">Producto 2</h3>
+                        <p class="mb-2" style="font-family: 'Raleway', sans-serif;">Descripción del producto 2.</p>
+                        <p class="fw-bold mb-3">$1,000 MXN</p>
+                        <a href="#" class="btn btn-light btn-sm">Agregar al carrito</a>
+                    </div>
+                </div>
+
+                <!-- Producto 3 -->
+                <div class="col-md-6 mb-4">
+                    <img src="img/producto3.jpg" alt="Producto 3" class="img-fluid rounded">
+                    <div class="bg-primary text-white p-3 mt-3 rounded">
+                        <h3 class="h5 mb-2" style="font-family: 'Playfair Display', serif;">Producto 3</h3>
+                        <p class="mb-2" style="font-family: 'Raleway', sans-serif;">Descripción del producto 3.</p>
+                        <p class="fw-bold mb-3">$1,300 MXN</p>
+                        <a href="#" class="btn btn-light btn-sm">Agregar al carrito</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!--Productos 4, 5, 6-->
+
+            <div class="row mb-5">
+                <div class="col-md-4 mb-4">
+                    <!--Producto 4 imagen + info-->
+                    <img src="img/producto4.jpg" alt="Producto 4" class="img-fluid rounded">
+                    <div class="bg-primary text-white p-3 mt-3 rounded">
+                        <h3 class="h5 mb-2" style="font-family: 'Playfair Display', serif;">Producto 4</h3>
+                        <p class="mb-2" style="font-family: 'Raleway', sans-serif;">Descripción del producto 4.</p>
+                        <p class="fw-bold mb-3">$900 MXN</p>
+                        <a href="#" class="btn btn-light btn-sm">Agregar al carrito</a>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <!--Producto 5 imagen + info-->
+                    <img src="img/producto5.jpg" alt="Producto 5" class="img-fluid rounded">
+                    <div class="bg-primary text-white p-3 mt-3 rounded">
+                        <h3 class="h5 mb-2" style="font-family: 'Playfair Display', serif;">Producto 5</h3>
+                        <p class="mb-2" style="font-family: 'Raleway', sans-serif;">Descripción del producto 5.</p>
+                        <p class="fw-bold mb-3">$1,100 MXN</p>
+                        <a href="#" class="btn btn-light btn-sm">Agregar al carrito</a>
+                    </div>
+
+                </div>
+                <div class="col-md-4 mb-4">
+                    <!--Producto 6 imagen + info-->
+                    <img src="img/producto6.jpg" alt="Producto 6" class="img-fluid rounded">
+                    <div class="bg-primary text-white p-3 mt-3 rounded">
+                        <h3 class="h5 mb-2" style="font-family: 'Playfair Display', serif;">Producto 5</h3>
+                        <p class="mb-2" style="font-family: 'Raleway', sans-serif;">Descripción del producto 5.</p>
+                        <p class="fw-bold mb-3">$1,250 MXN</p>
+                        <a href="#" class="btn btn-light btn-sm">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Categorías-->
+    <section class="py-5 bg-light">
+
+        <div class="container text-center">
+            <h2 class="mb-5" style="font-family: 'Playfair Display', serif;">Categorías</h2>
+            <!--Filas y columnas-->
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <img src="img/categoria1.jpg" alt="Oficina" class="img-fluid rounded">
+                    <a href="#" class="text-decoration-none text-dark fw-semibold">Oficina</a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="img/categoria2.jpg" alt="Hogar" class="img-fluid rounded">
+                    <a href="#" class="text-decoration-none text-dark fw-semibold">Hogar</a>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <img src="img/categoria3.jpg" alt="Cocina" class="img-fluid rounded">
+                    <a href="#" class="text-decoration-none text-dark fw-semibold">Cocina</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <footer class="bg-light py-5">
+        <div class="container">
+            <div class="row text-center text-md-start">
+
+                <!--Columna 1-->
+                <div class="col-md-4 mb-4">
+                    <h3 class="mb-3">Categorías</h3>
+                    <nav class="nav flex-column">
+                        <a href="#" class="nav-link text-dark px-0">Cocina</a>
+                        <a href="#" class="nav-link text-dark px-0">Oficina</a>
+                        <a href="#" class="nav-link text-dark px-0">Jardín</a>
+                        <a href="#" class="nav-link text-dark px-0">Cochera</a>
+                        <a href="#" class="nav-link text-dark px-0">Dormitorios</a>
+                    </nav>
+                </div>
+
+                <!--Olumna 2-->
+                <div class="col-md-4 mb-4">
+                    <h3 class="mb-3">Sobre nosotros</h3>
+                    <nav class="nav flex-column">
+                        <a href="#" class="nav-link text-dark px-0">Nuestra historia</a>
+                        <a href="#" class="nav-link text-dark px-0">Misión, visión y valores</a>
+                        <a href="#" class="nav-link text-dark px-0">Carrera</a>
+                        <a href="#" class="nav-link text-dark px-0">Plíticas de privacidad</a>
+                        <a href="#" class="nav-link text-dark px-0">Términos del servicio</a>
+                    </nav>
+                </div>
+
+                <!--Columna 3-->
+                <div class="col-md-4 mb-4">
+                    <h3 class="mb-3">Soporte</h3>
+                    <nav class="nav flex-column">
+                        <a href="#" class="nav-link text-dark px-0">Preguntas frecuentes</a>
+                        <a href="#" class="nav-link text-dark px-0">Ayuda en línea</a>
+                        <a href="#" class="nav-link text-dark px-0">Confianza y seguridad</a>
+                    </nav>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js" integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous"></script>
+</body>
+</html>
