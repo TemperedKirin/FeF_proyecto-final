@@ -30,11 +30,16 @@ h2, h3 { font-size: 4rem; }
 
 /* Hero responsive */
 .hero-section {
-    height: 25rem;
+    height: 60vh; /* 60% del viewport height */
+    min-height: 400px; /* Altura mínima */
+    max-height: 800px; /* Altura máxima */
     background-image: url('../img/principal.jpg');
     background-size: cover;
-    background-position: 50% 900px;
+    background-position: center center; /* Centra la imagen */
+    background-repeat: no-repeat;
     color: white;
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
 }
 /*Media Query*/
 @media (max-width: 768px) {
