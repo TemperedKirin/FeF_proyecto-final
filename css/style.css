@@ -41,12 +41,9 @@ h2, h3 { font-size: 4rem; }
     display: flex;
     align-items: center; /* Centra verticalmente el contenido */
 }
+
 /*Media Query*/
-@media (max-width: 768px) {
-  .hero-section {
-    height: 55rem;
-  }
-}
+
 /** Reescribir colores */
 :root {
   --bs-blue: #037BC0;
